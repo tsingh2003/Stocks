@@ -1,0 +1,54 @@
+---
+title: "Stock Knowledge"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Stock_Knowledge}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Stocks)
+```
+
+# What is a Stock Ticker?
+
+A **stock ticker** is a unique code used to identify a particular stock or security. It is a short symbol assigned to a publicly traded company by a stock exchange. Tickers are usually composed of a combination of letters, which makes it easy to refer to a company in financial markets. For example:
+
+- **Apple Inc.** has the stock ticker `AAPL`
+- **Tesla Inc.** has the stock ticker `TSLA`
+- **Amazon.com Inc.** has the stock ticker `AMZN`
+
+These symbols are used by stock exchanges to list, track, and facilitate the trading of stocks. Stock tickers are crucial for both investors and traders because they allow quick and efficient referencing of stock symbols on financial platforms.
+
+### Role of Stock Exchanges
+
+Stock exchanges, such as the **New York Stock Exchange (NYSE)** and **NASDAQ**, provide a platform for buying and selling stocks. They ensure that stocks are traded in an orderly manner and that prices reflect the market’s demand and supply. Let’s take a closer look at these two major stock exchanges:
+
+#### New York Stock Exchange (NYSE)
+
+The **New York Stock Exchange (NYSE)**, located in New York City, is one of the largest and oldest stock exchanges in the world. It was founded in 1792 and is known for its traditional trading floor. The NYSE lists thousands of companies, including some of the biggest corporations, such as **Coca-Cola**, **McDonald's**, and **General Electric**.
+
+The NYSE uses a **designated market maker (DMM)** system to facilitate trading. DMMs ensure there is enough liquidity in the market for a stock, helping buyers and sellers execute their trades smoothly.
+
+#### NASDAQ
+
+The **NASDAQ** (National Association of Securities Dealers Automated Quotations) is an electronic stock exchange based in the United States. Unlike the NYSE, NASDAQ does not have a physical trading floor. Instead, all trades are conducted electronically through a vast network of computers.
+
+NASDAQ is known for its technology-oriented companies, such as **Apple**, **Google (Alphabet)**, **Microsoft**, and **Amazon**. It’s often considered the go-to exchange for technology and innovation-based firms.
+
+### Stock Ticker Symbols and Stock Exchanges
+
+- **NYSE** and **NASDAQ** both assign ticker symbols to listed companies, but their composition of tickers may differ. 
+  - On the **NYSE**, tickers typically consist of 1 to 3 characters (e.g., **IBM** for International Business Machines).
+  - On the **NASDAQ**, tickers usually consist of 4 letters (e.g., **GOOG** for Google).
+
+Understanding these exchanges and their tickers helps investors and analysts access, compare, and analyze stocks efficiently.
+
