@@ -1,9 +1,18 @@
-library(tidyedgar)
-library(dplyr)
+#'@title Quick Look at a Company's Financials
+#'@description This function will allow a use to look at several ratios of the company
+#'@export
+#'@param company_name Write in company name in quotes
+#'@returns The stock ticker for the company if it is a public stock on NASDAQ or NYSE
+#'@import tidyedgar
+#'@import dplyr
+#'@import readxl
+#'@examples
+#'
 
+library(dplyr)
 # import the cik and ticker data set
 library(readxl)
-cikticker <- read_excel("~/Desktop/Advanced R/Final Project/cikticker.xlsx",
+cikticker <- read_excel("~/Desktop/cikticker.xlsx",
                         col_types = c("text", "numeric"))
 
 # For the package we will have to have cikticker dataframe apart of package
