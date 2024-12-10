@@ -51,4 +51,3 @@ NASDAQ is known for its technology-oriented companies, such as **Apple**, **Goog
   - On the **NASDAQ**, tickers usually consist of 4 letters (e.g., **GOOG** for Google).
 
 Understanding these exchanges and their tickers helps investors and analysts access, compare, and analyze stocks efficiently.
-
